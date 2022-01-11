@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+  <title> My Data Entry Form </title>
+</head>
+<body>
+    <header>
+      <h1>People Database</h1>
+    </header>
+    <form action="/add" method="POST">
+      <fieldset>
+        <h3>Add new person</h3>
+        <label>First name</label>
+        <input type ="text" id = 'fname' name="fname" required>
+        <br><br>
+        <label>Last Name</label>
+        <input type="text" id = "lname" name="lname" required>
+        <br><br>
+        <button type ="submit">Save</button>
+      </fieldset>
+    </form>
+    <form action="/view" method="POST">
+      <fieldset>
+        <h3>View All records</h3>
+        
+        <button type ="View All Data">Qury DB</button>
+      </fieldset>
+    </form>
+</body>
+</html>
